@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D4D108022FBCF51002CB9B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D107F22FBCF51002CB9B2 /* main.cpp */; };
-		9D4D108822FC1B93002CB9B2 /* carculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D108622FC1B93002CB9B2 /* carculate.cpp */; };
+		51DFE2F622FD0C6900B0CEBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51DFE2F522FD0C6900B0CEBC /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9D4D107A22FBCF51002CB9B2 /* CopyFiles */ = {
+		51DFE2F022FD0C6900B0CEBC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D4D107C22FBCF51002CB9B2 /* carculate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = carculate; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D4D107F22FBCF51002CB9B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9D4D108622FC1B93002CB9B2 /* carculate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = carculate.cpp; sourceTree = "<group>"; };
-		9D4D108722FC1B93002CB9B2 /* carculate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = carculate.hpp; sourceTree = "<group>"; };
+		51DFE2F222FD0C6900B0CEBC /* multiple_inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multiple_inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DFE2F522FD0C6900B0CEBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D4D107922FBCF51002CB9B2 /* Frameworks */ = {
+		51DFE2EF22FD0C6900B0CEBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D4D107322FBCF51002CB9B2 = {
+		51DFE2E922FD0C6900B0CEBC = {
 			isa = PBXGroup;
 			children = (
-				9D4D107E22FBCF51002CB9B2 /* carculate */,
-				9D4D107D22FBCF51002CB9B2 /* Products */,
+				51DFE2F422FD0C6900B0CEBC /* multiple_inheritance */,
+				51DFE2F322FD0C6900B0CEBC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9D4D107D22FBCF51002CB9B2 /* Products */ = {
+		51DFE2F322FD0C6900B0CEBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D4D107C22FBCF51002CB9B2 /* carculate */,
+				51DFE2F222FD0C6900B0CEBC /* multiple_inheritance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D4D107E22FBCF51002CB9B2 /* carculate */ = {
+		51DFE2F422FD0C6900B0CEBC /* multiple_inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				9D4D107F22FBCF51002CB9B2 /* main.cpp */,
-				9D4D108622FC1B93002CB9B2 /* carculate.cpp */,
-				9D4D108722FC1B93002CB9B2 /* carculate.hpp */,
+				51DFE2F522FD0C6900B0CEBC /* main.cpp */,
 			);
-			path = carculate;
+			path = multiple_inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D4D107B22FBCF51002CB9B2 /* carculate */ = {
+		51DFE2F122FD0C6900B0CEBC /* multiple_inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4D108322FBCF51002CB9B2 /* Build configuration list for PBXNativeTarget "carculate" */;
+			buildConfigurationList = 51DFE2F922FD0C6900B0CEBC /* Build configuration list for PBXNativeTarget "multiple_inheritance" */;
 			buildPhases = (
-				9D4D107822FBCF51002CB9B2 /* Sources */,
-				9D4D107922FBCF51002CB9B2 /* Frameworks */,
-				9D4D107A22FBCF51002CB9B2 /* CopyFiles */,
+				51DFE2EE22FD0C6900B0CEBC /* Sources */,
+				51DFE2EF22FD0C6900B0CEBC /* Frameworks */,
+				51DFE2F022FD0C6900B0CEBC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = carculate;
-			productName = carculate;
-			productReference = 9D4D107C22FBCF51002CB9B2 /* carculate */;
+			name = multiple_inheritance;
+			productName = multiple_inheritance;
+			productReference = 51DFE2F222FD0C6900B0CEBC /* multiple_inheritance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D4D107422FBCF51002CB9B2 /* Project object */ = {
+		51DFE2EA22FD0C6900B0CEBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = fengsh;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "JF Zhou";
 				TargetAttributes = {
-					9D4D107B22FBCF51002CB9B2 = {
-						CreatedOnToolsVersion = 10.2.1;
+					51DFE2F122FD0C6900B0CEBC = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 9D4D107722FBCF51002CB9B2 /* Build configuration list for PBXProject "carculate" */;
+			buildConfigurationList = 51DFE2ED22FD0C6900B0CEBC /* Build configuration list for PBXProject "multiple_inheritance" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 9D4D107322FBCF51002CB9B2;
-			productRefGroup = 9D4D107D22FBCF51002CB9B2 /* Products */;
+			mainGroup = 51DFE2E922FD0C6900B0CEBC;
+			productRefGroup = 51DFE2F322FD0C6900B0CEBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D4D107B22FBCF51002CB9B2 /* carculate */,
+				51DFE2F122FD0C6900B0CEBC /* multiple_inheritance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D4D107822FBCF51002CB9B2 /* Sources */ = {
+		51DFE2EE22FD0C6900B0CEBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4D108822FC1B93002CB9B2 /* carculate.cpp in Sources */,
-				9D4D108022FBCF51002CB9B2 /* main.cpp in Sources */,
+				51DFE2F622FD0C6900B0CEBC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D4D108122FBCF51002CB9B2 /* Debug */ = {
+		51DFE2F722FD0C6900B0CEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		9D4D108222FBCF51002CB9B2 /* Release */ = {
+		51DFE2F822FD0C6900B0CEBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +236,7 @@
 			};
 			name = Release;
 		};
-		9D4D108422FBCF51002CB9B2 /* Debug */ = {
+		51DFE2FA22FD0C6900B0CEBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		9D4D108522FBCF51002CB9B2 /* Release */ = {
+		51DFE2FB22FD0C6900B0CEBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D4D107722FBCF51002CB9B2 /* Build configuration list for PBXProject "carculate" */ = {
+		51DFE2ED22FD0C6900B0CEBC /* Build configuration list for PBXProject "multiple_inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D4D108122FBCF51002CB9B2 /* Debug */,
-				9D4D108222FBCF51002CB9B2 /* Release */,
+				51DFE2F722FD0C6900B0CEBC /* Debug */,
+				51DFE2F822FD0C6900B0CEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D4D108322FBCF51002CB9B2 /* Build configuration list for PBXNativeTarget "carculate" */ = {
+		51DFE2F922FD0C6900B0CEBC /* Build configuration list for PBXNativeTarget "multiple_inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D4D108422FBCF51002CB9B2 /* Debug */,
-				9D4D108522FBCF51002CB9B2 /* Release */,
+				51DFE2FA22FD0C6900B0CEBC /* Debug */,
+				51DFE2FB22FD0C6900B0CEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D4D107422FBCF51002CB9B2 /* Project object */;
+	rootObject = 51DFE2EA22FD0C6900B0CEBC /* Project object */;
 }
